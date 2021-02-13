@@ -1,0 +1,31 @@
+{
+    "name": "invincible-tech-systems/easeampmysql-halite",
+    "description": "A very simple and safe PHP library to execute SQL Queries as Prepared Statements on MySQL Database, in an asynchronous & non-blocking all basing upon amphp/mysql package. Additional checks are supported in terms of facilitating creation and verification of row level digital signature for different database tables along with creation of  blind indexes of data in encrypted db columns, using easeappphp/ea-halite package.",
+	"keywords": ["php", "sql", "mysql", "Amphp", "Asynchronous", "non-blocking", "database", "ea-halite", "digital signature", "blind indexes"],
+    "homepage": "https://www.invincibletechsystems.com/",
+    "type": "library",
+	"require": {
+        "invincible-tech-systems/easeampmysql": "^1.0.5",
+		"easeappphp/ea-halite": "^1.0"
+        
+    },
+	"require-dev": {
+        "invincible-tech-systems/easeampmysql": "^1.0.5",
+		"easeappphp/ea-halite": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Raghuveer Dendukuri",
+            "email": "raghuveer.dendukuri@invincibletechsystems.com",
+			"homepage": "https://www.invincibletechsystems.com",
+            "role": "Developer"
+        }
+    ],
+	"autoload": {
+       
+	   "psr-4": {
+            "InvincibleTechSystems\\EaseAmpMysqlHalite\\": "src/"
+        }
+    }
+}

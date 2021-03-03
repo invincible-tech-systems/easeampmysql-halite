@@ -5,12 +5,14 @@
     "homepage": "https://www.invincibletechsystems.com/",
     "type": "library",
 	"require": {
-        "invincible-tech-systems/easeampmysql": "^1.0.5",
+		"php": "^7.3|^7.4|^8.0",
+        "invincible-tech-systems/easeampmysql": "^1.0.6",
 		"easeappphp/ea-halite": "^1.0.2"
         
     },
 	"require-dev": {
-        "invincible-tech-systems/easeampmysql": "^1.0.5",
+		"php": "^7.3|^7.4|^8.0",
+        "invincible-tech-systems/easeampmysql": "^1.0.6",
 		"easeappphp/ea-halite": "^1.0.2"
     },
     "license": "MIT",
